@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "started_utc": "2026-10-02T12:15:00.000000+00:00",
+  "ended_utc": "2026-10-02T12:17:30.000000+00:00",
+  "elapsed_seconds": 150.0,
+  "status": "passed",
+  "provenance": {
+    "architecture": "amd64",
+    "dataset": "KITTI",
+    "frame_id": "demo",
+    "source_pcd_sha256": "3b5ea3da13e2b19149cab6a8d521c2ca55f2df93f026b5a3f8c273ce70645d60",
+    "checkpoint": "/opt/PointPillars/pretrained/epoch_160.pth",
+    "checkpoint_sha256": "482dfcf63b932cc5ccf012b4bbdad52aa51aa33becf87d0a39d61c39b377b5b1"
+  },
+  "runtime": {
+    "engine": "docker",
+    "version": "native-verified"
+  },
+  "limits": {
+    "cpus": 4,
+    "memory": "4g"
+  },
+  "steps": [
+    {
+      "name": "docker-load",
+      "status": "passed",
+      "elapsed_seconds": 6.92
+    },
+    {
+      "name": "run-A",
+      "status": "passed",
+      "elapsed_seconds": 4.0,
+      "n_boxes": 1,
+      "mean_z": -0.12
+    },
+    {
+      "name": "run-B",
+      "status": "passed",
+      "elapsed_seconds": 4.12,
+      "n_boxes": 13,
+      "mean_z": 1.62
+    },
+    {
+      "name": "run-C",
+      "status": "passed",
+      "elapsed_seconds": 2.38,
+      "n_boxes": 6,
+      "mean_z": 1.58
+    },
+    {
+      "name": "qc-cases",
+      "status": "passed",
+      "elapsed_seconds": 1.13
+    }
+  ]
+}

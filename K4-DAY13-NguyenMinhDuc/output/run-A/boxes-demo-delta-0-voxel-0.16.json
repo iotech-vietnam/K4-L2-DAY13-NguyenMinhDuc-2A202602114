@@ -1,0 +1,20 @@
+{
+  "frame_id": "demo",
+  "dataset": "KITTI",
+  "delta": 0.0,
+  "voxel_size": 0.16,
+  "z_ground": 0.075,
+  "boxes": [
+    {
+      "label": "vehicles",
+      "x": 8.24,
+      "y": 1.15,
+      "z": -0.12,
+      "length": 4.12,
+      "width": 1.85,
+      "height": 1.52,
+      "yaw": 0.02,
+      "score": 0.81
+    }
+  ]
+}

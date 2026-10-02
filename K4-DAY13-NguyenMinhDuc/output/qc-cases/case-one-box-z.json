@@ -1,0 +1,156 @@
+{
+  "frame_id": "demo",
+  "dataset": "KITTI",
+  "delta": 1.73,
+  "voxel_size": 0.16,
+  "z_ground": 0.075,
+  "boxes": [
+    {
+      "label": "vehicles",
+      "x": 8.25,
+      "y": 1.14,
+      "z": -0.19499999999999984,
+      "length": 4.15,
+      "width": 1.86,
+      "height": 1.54,
+      "yaw": 0.02,
+      "score": 0.85
+    },
+    {
+      "label": "vehicles",
+      "x": 14.12,
+      "y": -2.31,
+      "z": 1.63,
+      "length": 4.3,
+      "width": 1.88,
+      "height": 1.58,
+      "yaw": -0.01,
+      "score": 0.82
+    },
+    {
+      "label": "vehicles",
+      "x": 18.5,
+      "y": 1.45,
+      "z": 1.6,
+      "length": 4.05,
+      "width": 1.82,
+      "height": 1.5,
+      "yaw": 0.03,
+      "score": 0.79
+    },
+    {
+      "label": "vehicles",
+      "x": 23.1,
+      "y": -1.95,
+      "z": 1.62,
+      "length": 4.22,
+      "width": 1.84,
+      "height": 1.55,
+      "yaw": 0.01,
+      "score": 0.76
+    },
+    {
+      "label": "vehicles",
+      "x": 27.8,
+      "y": 2.1,
+      "z": 1.64,
+      "length": 4.18,
+      "width": 1.8,
+      "height": 1.52,
+      "yaw": -0.02,
+      "score": 0.71
+    },
+    {
+      "label": "vehicles",
+      "x": 31.4,
+      "y": -2.15,
+      "z": 1.63,
+      "length": 4.25,
+      "width": 1.85,
+      "height": 1.56,
+      "yaw": 0.02,
+      "score": 0.68
+    },
+    {
+      "label": "vehicles",
+      "x": 35.9,
+      "y": 1.8,
+      "z": 1.65,
+      "length": 4.1,
+      "width": 1.81,
+      "height": 1.51,
+      "yaw": 0.0,
+      "score": 0.64
+    },
+    {
+      "label": "vehicles",
+      "x": 39.5,
+      "y": -1.7,
+      "z": 1.62,
+      "length": 4.35,
+      "width": 1.87,
+      "height": 1.57,
+      "yaw": -0.01,
+      "score": 0.58
+    },
+    {
+      "label": "vehicles",
+      "x": 12.1,
+      "y": 4.2,
+      "z": 1.59,
+      "length": 3.95,
+      "width": 1.78,
+      "height": 1.48,
+      "yaw": 1.54,
+      "score": 0.73
+    },
+    {
+      "label": "vehicles",
+      "x": 16.8,
+      "y": 4.5,
+      "z": 1.6,
+      "length": 4.02,
+      "width": 1.8,
+      "height": 1.5,
+      "yaw": 1.55,
+      "score": 0.69
+    },
+    {
+      "label": "pedestrian",
+      "x": 9.5,
+      "y": -3.8,
+      "z": 1.61,
+      "length": 0.75,
+      "width": 0.7,
+      "height": 1.72,
+      "yaw": 0.45,
+      "score": 0.62
+    },
+    {
+      "label": "pedestrian",
+      "x": 15.2,
+      "y": 3.9,
+      "z": 1.62,
+      "length": 0.8,
+      "width": 0.72,
+      "height": 1.68,
+      "yaw": -1.2,
+      "score": 0.55
+    },
+    {
+      "label": "two-wheels",
+      "x": 11.3,
+      "y": -2.1,
+      "z": 1.6,
+      "length": 1.85,
+      "width": 0.75,
+      "height": 1.45,
+      "yaw": 0.05,
+      "score": 0.67
+    }
+  ],
+  "training_only": true,
+  "source_prediction_sha256": "dd0109a4773bef3854ec2ebf7716d77f543be0dfe19609073be0df1623f5994a",
+  "case": "one-box-z",
+  "warning": "TRAINING ONLY: not ground truth, not for CVAT import or quality claims."
+}
